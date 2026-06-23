@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Paso 5: SEO Best Practices -->
+    <meta name="description" content="Portafolio profesional de desarrollo web con proyectos accesibles, habilidades técnicas y formulario de contacto.">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav role="navigation" aria-label="Menú principal">
+            <ul>
+                <li><a href="#about-me">Sobre Mí</a></li>
+                <li><a href="#projects">Mis Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Step 3: About Me Section -->
+        <section id="about-me">
+            <h2>Salvador Tetlalmatzin Garcia</h2>
+            <h2>Sobre Mí</h2>
+            <p>Hola, tengo una carrera de Ing. Petrolera, pero actualmente estoy estudiando programacion, por lo tanto, con este programa estoy aprendiendo a desarrollar aplicaciones accesibles y eficientes.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            
+            <article>
+                <h3>Proyecto 1: [Matlab] Programa para calcular la trayectoria direccional de pozos petroleros</h3>
+                <figure>
+                    <img src="Ejemplo_tipo_j.png" alt=".Captura de pantalla de la interfaz del programa del tipo J">
+                    <figcaption>Interfaz del programa de cálculo de trayectoria direccional tipo J.</figcaption>
+                </figure>
+                <p>Este programa permite calcular la trayectoria direccional de pozos petroleros (Tipo J, Tipo S y Tipo S modificado) utilizando el metodo geometrico.</p>
+            </article>
+
+            <article>
+                <h3>Proyecto 2: Pagina web</h3>
+                <p>En si, es esta pagina web, donde trato de aplicar los conocimientos adquiridos en el desarrollo de aplicaciones web.</p>
+            </article>
+        </section>
+
+        <!-- Step 3: Skills Section -->
+        <section id="skills">
+            <h2>Habilidades que aplique en el diseño de la pagina web</h2>
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript Moderno</li>
+                <li>Accesibilidad Web</li>
+                <li>Diseño Web Responsivo</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Step 3 & 4: Contact Form Section (Proper label association) -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <h3>Nota: este formulario no funciona, simplemente es como una simulacion para que aplique los conocimientos que he adquirido</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
